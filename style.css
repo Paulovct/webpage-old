@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 * {
@@ -51,9 +52,11 @@ body{
 }
 
 .redessociais {
+  font-family: 'Lobster', cursive;
   list-style: none;
   display: flex;
   justify-content:center;
+  margin:20px;
 }
 .redessociais li{
   width:40px;
