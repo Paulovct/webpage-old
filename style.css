@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+
+
+* {
+  margin: 5px;
+  padding: 0;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
+
+
+body{
+  background: url(img/background.jpg),no-repeat top center;
+  background-attachment:fixed;
+  background-size: cover;
+  display:grid ;
+  align-items:center;
+  justify-items:center;
+  height: 100vh;
+  color: #2F3042;
+  gap:200px;
+}
+.box{
+  background: white;
+  padding: 4rem;
+  box-shadow: 2px  2px  16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  border-top: 8rem;
+  column-gap: center;
+}
+.foto {
+  border-radius: 100%;
+  margin: 0 auto 2rem auto;
+  height: 220px;
+  width: 220px;
+}
+
+.titulo {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  font-weight:normal;
+}
+
+.redessociais {
+  list-style: none;
+  display: flex;
+  justify-content:center;
+}
+.redessociais li{
+  width:40px;
+  margin-right: 0,5rem;
+}
+
+.profile box span{
+  font-family: 'Noto Serif Display', serif;
+  font-size: 24px;
+  
+}
+.profile box p{
+  font-family: 'Noto Serif Display', serif;
+  font-size:18px;
+  margin-top:2rem;
+  margin-bottom:4rem;
+}
+
+
+.copyright {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 16px black;
+  margin: 50vh 0;
+}
