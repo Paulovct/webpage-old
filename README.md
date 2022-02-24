@@ -1,2 +1,0 @@
-# paulovct.github.io
-
