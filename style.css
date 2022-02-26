@@ -4,7 +4,7 @@
 
 
 * {
-  margin: 7px;
+  margin: 10px;
   padding: 0;
   
 }
@@ -15,6 +15,12 @@ img {
 }
 
 
+.container{
+  margin-bottom: 38px;
+  padding: 0 16px;
+  min-width: 100%;
+  
+}
 
 
 
@@ -25,29 +31,33 @@ body{
   display:grid ;
   align-items:center;
   justify-items:center;
-  height: 100vh;
-  color: #121640;
+  height: 100%;
+  color: #FFFFFF;
   gap:70px;
 }
 .box{
   background: #42445A;
   padding: 2rem;
   box-shadow: 2px  2px  16px rgba(0, 0, 0, 0.16);
-  border-radius: 50px;
+  border-radius: 63px;
   text-align: center;
   border-top: 4rem;
   column-gap: center;
+  box-sizing: border-box;
+  max-height: 100%;
+  max-width:680px;
+  margin: 0 auto;
 }
 .foto {
   border-radius: 100%;
-  margin: 0 auto 2rem auto;
-  height: 220px;
-  width: 220px;
+  margin:   1rem auto;
+  height: 280px;
+  width: 280px;
 }
 
 .titulo {
   font-family: 'Cinzel', serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight:normal;
 }
 
@@ -56,58 +66,118 @@ body{
   list-style: none;
   display: flex;
   justify-content:center;
-  margin:20px;
-}
-.redessociais li{
-  width:70px;
   margin-right:20px;
 }
+.redessociais li{
+  width:92px;
+  margin-right:16px;
+  color: #41435B;
+}
+
+
+.profile box p{
+  margin-top:18rem;
+  margin-bottom:4rem;
+  font-family: 'Noto Serif Display', serif;
+  font-size:18px;}
+
+
 
 .box-2 ol{
   list-style: none;
-  
 }
-
-.profile box span{
-  font-family: 'Noto Serif Display', serif;
-  font-size: 24px;
-}
-
 
 .conteudo-box-2 {
   font-size: 18px;
-  margin-top:2rem;
+  margin-top:3rem;
   margin-bottom:4rem;
 }
 
 .box-2-titulo{
   font-family: 'Lobster', cursive;
-
 }
-
-.profile box p{
-  font-family: 'Noto Serif Display', serif;
-  font-size:18px;
-  margin-top:2rem;
-  margin-bottom:4rem;
-}
-
 
 .box-2 {
-  
   background: #42445A;
   padding: 2rem;
   box-shadow: 2px  2px  16px rgba(0, 0, 0, 0.16);
-  border-radius: 50px;
+  border-radius: 63px;
   text-align: center;
   border-top: 4rem;
   column-gap: center;
-
+  box-sizing: border-box;
+  max-width: 680px;
+  margin: 0 auto;
+  margin-top: 45px;
 }
+
 
 .copyright {
-  font-size: 24px;
-  color: white;
-  text-shadow: 2px 2px 16px black;
-  margin: 50vh 0;
+  font-size: 14px;
+  color: #CACEF6;
+  text-shadow: 2px 2px 16px (#000000);
+  margin:4rem;
 }
+
+
+@media (min-width:680){
+  
+body{
+  background-size: 100%;
+  
+}
+  
+.container{
+  margin-bottom: 50px;
+  width: 100%;  
+}
+  
+  
+  
+.box{
+  margin: 2rem;
+  border-radius: 50px;
+  max-width: 100%;
+}
+
+.titulo{
+  font-size: 85px
+
+  
+}
+
+.foto{
+  width:335px ;
+  height:335px ;
+}
+
+.profile box p{
+  margin-top:18rem;
+  margin-bottom:4rem;
+  font-size:35px;
+  
+}
+
+.box-2-titulo{
+  font-size: 16px;
+  
+}  
+
+
+.conteudo-box-2{
+  font-size: 6px;
+  margin-top:3rem;
+  margin-bottom:2rem;
+}
+
+
+.copyright {
+  font-size: 14px;
+  color: #CACEF6;
+  margin:2rem;
+}
+
+
+}
+  
+  
