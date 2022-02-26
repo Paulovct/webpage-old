@@ -62,8 +62,6 @@ body{
 }
 
 .redessociais {
-  font-family: 'Lobster', cursive;
-  list-style: none;
   display: flex;
   justify-content:center;
   margin-right:20px;
