@@ -63,13 +63,15 @@ body{
 
 .redessociais {
   display: flex;
+  flex-direction: row;
   justify-content:center;
   margin-right:20px;
 }
+
 .redessociais li{
-  width:92px;
-  margin-right:16px;
-  color: #41435B;
+  list-style: none;
+  width:90px;
+  margin-right:18px;
 }
 
 
@@ -120,10 +122,6 @@ body{
 
 @media (min-width:680){
   
-body{
-  background-size: 100%;
-  
-}
   
 .container{
   margin-bottom: 50px;
