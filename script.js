@@ -1,6 +1,15 @@
 const btnToggle=document.getElementById("toggle")
 const navBar=document.getElementById("nav")
+const container=document.querySelector("contaner elements")
 
-btnToggle.addEventListener("click", (evt)=>{
+
+
+container.addEventListener("click",(evt)=>{
+    
+        navBar.classList.remove("on")
+    
+})
+
+btnToggle.addEventListener("click", (evt)=>{    
     navBar.classList.toggle("on")
 })
