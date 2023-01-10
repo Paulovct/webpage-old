@@ -1,15 +1,7 @@
-const btnToggle=document.getElementById("toggle")
-const navBar=document.getElementById("nav")
-const container=document.querySelector("contaner elements")
+   const card =[...document.querySelectorAll('.card')]
+   console.log(card)
 
-
-
-container.addEventListener("click",(evt)=>{
-    
-        navBar.classList.remove("on")
-    
-})
-
-btnToggle.addEventListener("click", (evt)=>{    
-    navBar.classList.toggle("on")
-})
+   card[0].addEventListener('click',(evt)=>{
+    const win=window.open('https://github.com/Paulovct/Panda-Calc' ,'_blank')
+    win.focus()
+   })

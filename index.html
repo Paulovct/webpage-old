@@ -1,104 +1,115 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Paulo Victor - Saiba sobre mim.</title>
-    
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  
-  <link rel="stylesheet" href="style.css">
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Portfólio</title>
 </head>
 
 <body>
-
-  <header>
-    <button id="toggle" class="btnToggle"></button>
-    <div id="logo" class="logo">Sobre Mim</div>
-  </header>
-
-
-  <div id="nav" class="nav">
-    <div class="navElement">A</div>
-    <div class="navElement">B</div>
-    <div class="navElement">C</div>
-    <div class="navElement">D</div>
-  </div>
- 
-  
-  <div class="container">
     
-  
+    <header class="header-container">
+    <div class="header">
+      <div class="checkbox-container">
+        <div class="checkbox-wrapper">
 
-
-
-
-
-
-  
-    <div class="box profile">
-      <img class="foto" src="Profile.png" >
-      <h1 class="titulo">Paulo Victor Alves</h1>
-      <p>Rio de Janeiro, RJ, Brasil </p>
-      <p>Tec.Telecomunicações , Web developer Junior , Foco em Back-end</p>
-      <ul class="redessociais">
-       <!--  
-        <li> <a href="https://www.linkedin.com/in/paulo-victor-alves-216327211" <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkedin"</a></li>
-          <li> <a href="https://github.com/paulovct" <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github"></a></li>
-         --></ul>
+          <input type="checkbox" id="toggle">
+          <label class="checkbox" for="toggle">
+          <div class="trace"></div>
+          <div class="trace"></div>
+          <div class="trace"></div> 
+          </label>
+         
+          <div class="menu"></div>
+          <nav class="menu-items">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Sobre</a>
+              </li>
+              <li>
+                <a href="#">Projetos</a>
+              </li>
+            </ul>
+          </nav>       
+        </div>
+      </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <div class="box conteudo">
-          <h2>Sobre Mim</h2>
-          <p> Meu Nome é Paulo Victor Pinto Alves Da Rosa, tenho 18 anos, e estou focado em alavancar minha carreira no ramo da Tecnologia da Informação e da Programação. Estudo no Colegio Estadual Hebe Camargo , Em parceria com a Instituto Claro, cursando Telecomunicações.</p>
+    <h1>Paulo Victor</h1>
+    <h2>Jr. Back-end Developer</h2>
+    <div class="social-midia">
+      <a href="https://www.linkedin.com/in/paulo-victor-alves-216327211">Linkedin</a>
+      <a href="https://github.com/paulovct">Github</a>
     </div>
 
+</header>
+
+    <main class="container">
+
+
+      <div class="card-container">
+        <div class="card panda">
+          <div class="card-wraper">
+            
+            <p >Venha ver</p>
+          </div>
+        </div>
+        <div class="card-text">
+          <h2>Panda-Calc</h2>
+          Calculadora Simples Que Desenvolvi Utilizando HTML, CSS e JavaScript Enquanto Acompanhava o Curso de JS Profissional do Canal CFB Cursos no Youtube:)  Clique no Icone <=
+        </div>
+      </div>
+
+
+
+      <div class="card-container">
+        <div class="card" href="https://www.linkedin.com/in/paulo-victor-alves-216327211">
+          <div class="card-wraper">
+            <h2>Projeto 2</h2>
+            <p>Venha ver</p>
+          </div>
+        </div>
+        <div class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
 
 
 
 
+      <div class="card-container">
+        <div class="card">
+          <div href='/' class="card-wraper">
+            <h2>Projeto 3</h2>
+            <p>Venha ver</p>
+          </div>
+        </div>
+        <div class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
 
+           
+      </div>
+    </main>
 
+    <footer class="footer">Por Paulo Victor Alves</footer>
 
-
-  </div>  
- 
-
-
-
-
-
-
-
-
-  <footer>
-    <p class="copyright">© 2022 - Paulo Victor</p>
-  </footer>
-
-
-
-
-
-
-  <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
-
