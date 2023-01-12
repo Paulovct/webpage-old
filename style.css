@@ -204,10 +204,41 @@ a:hover{
   width: 90%;
 }
 
+
+
+
+
+
+
+
+
 .panda{
-  background-image: url('./img/panda.png');
+  background-image: url('./img/card/0.png');
 
 }
+.loginPage{
+ background-image: url('./img/card/1.png');
+} 
+.Balls{
+  background-image: url('./img/card/2.png');
+}
+.Card-Simples{
+  background-image: url('./img/card/3.png');
+}
+.SitePessoal{
+  background-image: url('./img/card/4.png');
+}
+
+
+
+
+
+
+
+
+
+
+
 .card{
   width: 300px;
   height: 300px;
@@ -296,7 +327,7 @@ a:hover{
   opacity: 1;
   visibility: visible;
   font-size: 20px;
- 
+ }
 
 /*footer*/
 
