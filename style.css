@@ -212,6 +212,11 @@ a:hover{
 
 
 
+
+
+
+
+
 .panda{
   background-image: url('./img/card/0.png');
 
@@ -234,7 +239,9 @@ a:hover{
 
 
 
-
+/*
+CARDCARD
+*/
 
 
 
@@ -329,6 +336,8 @@ a:hover{
   font-size: 20px;
  }
 
+
+
 /*footer*/
 
 .footer{
@@ -339,4 +348,102 @@ a:hover{
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+
+@media((min-width:810px) and (max-width: 900px)){
+  
+  .header-container {
+    background-position: right;
+  }
+}
+
+
+@media((min-width:260px) and (max-width: 500px)){
+  
+  .header-container {
+    background-image: none;
+
+    padding: 0 !important;
+    position: relative;
+    display: grid;
+    background-size: 300px;
+    grid-gap: -5px;
+    
+  }
+
+h1{
+  margin-bottom: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+  .trace{
+    width: 40px;
+    height: 3px;
+    right: 30px;
+  }
+h2{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+.social-midia{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+ 
+}
+.social-midia a{
+  font-size: 10x;
+  padding: 10px;
+  margin: auto;
+  width:20px ;
+  height: 20px;
+}
+a:hover{
+  background-color: #ffffff;
+}
+
+/* CARD */
+.card-container{
+  left: 1px;
+  display: flex;
+  flex-direction: column;
+  }
+
+.card{
+  width:100px ;
+  height:100px ;
+  filter: unset;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  letter-spacing: 1px;
+  color: rgb(109,109,109);
+  font-size: 10px;
+}
+.card-text h2{
+  color: black;
+  font-size: 20px;
+}
+.card-text p{
+  display: none;
+}
+
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: #253370;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+}
+
 }

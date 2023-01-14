@@ -1,5 +1,7 @@
    const card =[...document.querySelectorAll('.card')]
-   console.log(card)
+   const cardt =[...document.querySelectorAll('.card-text')]
+
+   
 
    card[0].addEventListener('click',(evt)=>{
     const win=window.open('https://github.com/Paulovct/Panda-Calc' ,'_blank')
@@ -18,6 +20,28 @@
     win.focus()
    })
    card[4].addEventListener('click',(evt)=>{
+    const win=window.open('https://github.com/Paulovct/paulovct.github.io' ,'_blank')
+    win.focus()
+   })
+
+
+   cardt[0].addEventListener('click',(evt)=>{
+    const win=window.open('https://github.com/Paulovct/Panda-Calc' ,'_blank')
+    win.focus()
+   })
+   cardt[1].addEventListener('click',(evt)=>{
+    const win=window.open('https://github.com/Paulovct/LoginPage---Darktheme' ,'_blank')
+    win.focus()
+   })
+   cardt[2].addEventListener('click',(evt)=>{
+    const win=window.open('https://github.com/Paulovct/Balls' ,'_blank')
+    win.focus()
+   })
+   cardt[3].addEventListener('click',(evt)=>{
+    const win=window.open('https://github.com/Paulovct/Card-simples.' ,'_blank')
+    win.focus()
+   })
+   cardt[4].addEventListener('click',(evt)=>{
     const win=window.open('https://github.com/Paulovct/paulovct.github.io' ,'_blank')
     win.focus()
    })
