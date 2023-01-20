@@ -1,6 +1,5 @@
    const card =[...document.querySelectorAll('.card')]
    const cardt =[...document.querySelectorAll('.card-text')]
-   const links=[...document.getElementByClassName('link')]
    
    
    
