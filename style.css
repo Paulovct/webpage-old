@@ -217,6 +217,16 @@ a:hover{
 
 
 
+.Flex-Turismo{
+  background-image: url("./img/card/Flex-Turismo.png");
+}
+
+
+.Save-The-Planet{
+  background-image: url("./img/card/Save-The-Planet.png");
+}
+
+
 .panda{
   background-image: url('./img/card/0.png');
 
@@ -233,7 +243,6 @@ a:hover{
 .SitePessoal{
   background-image: url('./img/card/4.png');
 }
-
 
 
 
